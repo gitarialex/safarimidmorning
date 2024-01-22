@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid cadetblue;
+    padding: 15px;
+}
+th{
+    font-family: AnjaliOldLipi;
+    font-size: 20px;
+    color: blue;
+}
+td{
+    font-family: cursive;
+    color: blueviolet;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: #2a8692;
+    font-size: 40px;
+}
+tr:nth-child(even){
+    background-color: #b1c4e7;
+}
+/*table{*/
+/*    background-image: url("Assets/Images/Sea.jpeg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/

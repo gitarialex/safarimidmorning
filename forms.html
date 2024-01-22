@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+          ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: aqua;
+        }
+        li{
+            float: left;
+            padding: 50px;
+        }
+        li a{
+            /*padding: 30px;*/
+            text-decoration: none;
+            display: block;
+            color: purple;
+        }
+        li a:hover{
+            background-color: white;
+            display: block;
+        }
+        h2{
+            text-align: -moz-left;
+            color: blue;
+            font-size: 40px;
+            font-family: "Abyssinica SIL";
+        }
+        h2{
+            font-size: 60px;
+            font-family: Chilanka;
+        }
+        .heading{
+            background-image: url("Assets/Images/emobilis.jpeg");
+            /*background-repeat: no-repeat;*/
+            /*background-size: cover;*/
+            /*background-color: #2a8692;*/
+            margin-right: 65px;
+        }
+        body{
+            /*background-image: url("Assets/Images/emobilis.jpeg");*/
+            /*background-repeat: no-repeat;*/
+            /*background-size: cover;*/
+            background-color: #b1c4e7;
+        }
+        form{
+            font-family: cursive;
+            font-size: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2>Safari Lab Mid-morning</h2>
+<ul>
+    <li><a href="Intro.html">Intro</a></li>
+    <li><a href="Headings.html">Headings</a></li>
+    <li><a href="images.html">Images</a></li>
+    <li><a href="list.html">List</a></li>
+    <li><a href="links.html">Links</a></li>
+     <li><a href="tables.html">Tables</a></li>
+    <li><a href="divs.html">Divs</a></li>
+    <li><a href="iframe.html">Iframe</a></li>
+    <li><a href="forms.html">Forms1</a></li>
+</ul>
+<div class="heading">
+<h2>Emobilis Registration Form</h2>
+<hr>
+</div>
+<!--<h2>Emobilis Registration Form</h2>-->
+<!--<hr>-->
+<form action="">
+    <label for="fname">First Name</label>
+    <input type="text"id="fname"name="jina"required placeholder="Enter Name"><br><br>
+    <label for="lname">Last Name</label>
+    <input type="text"id="lname"name="jina2"placeholder="Enter Name"><br><br>
+    <label for="email">Email</label>
+    <input type="email"id="email"name="baruapepe"placeholder="Enter Email Adress"><br><br>
+    <label for="phone">Mobile No.</label>
+    <input type="text"id="phone"name="nambari"placeholder="Phone Number"><br><br>
+    <label for="female">Female</label>
+    <input type="radio"id="female"name="gender">
+    <label for="male">Male</label>
+    <input type="radio"id="male"name="gender">
+    <label for="others">Custom</label>
+    <input type="radio"id="others"name="gender"><br><br>
+    <label for="course">Course Taken</label>
+    <select name="course" id="course">
+        <option value="react js">React Js</option>
+        <option value="android">Android</option>
+        <option value="fullstack">Full Stack Software Development</option>
+        <option value="cybersecurity">Cyber Security</option>
+        <option value="datascience">Data Science</option>
+        <option value="artificial">Artificial Intelligence</option>
+        <option value="hacking">Ethical Hacking</option>
+
+    </select><br><br>
+    <label for="uploadimage">Upload Profile Image</label>
+    <input type="file"id="uploadimage"><br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date"id="dob"name="tarehe"><br><br>
+    <label for="pass">Password</label>
+    <input type="password"id="pass"name="siri"placeholder="Create Password"><br><br>
+
+    <input type="submit"value="Register"><br>
+    <input type="reset"value="Reset">
+</form>
+</body>
+</html>

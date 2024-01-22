@@ -1,0 +1,39 @@
+.fruits{
+    border: solid 3px blue;
+    text-align: center;
+    font-family: "URW Chancery L";
+    background-color: #b1c4e7;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+.cars{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border: #b1c4e7 solid 2px;
+    margin: 15px;
+    /*background-image: url("Assets/Images/toyota.jpeg");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-color: aqua;
+    /*background-image: url("Assets/Images/Rocky.jpeg");*/
+}
+#computer{
+     text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    border: #b1c4e7 solid 2px;
+    margin: 15px;
+     background-color: aqua;
+}
+.FRUITS{
+    border: solid 3px blue;
+    text-align: center;
+    font-family: "URW Chancery L";
+    background-color: #b1c4e7;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+    /*background-image: url("Assets/Images/lenovo.jpeg");*/
+}
